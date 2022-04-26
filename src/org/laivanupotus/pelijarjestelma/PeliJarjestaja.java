@@ -25,7 +25,8 @@ public class PeliJarjestaja {
     private PeliTulos pelaa() {
         Lauta lauta1 = new Lauta();
         Lauta lauta2 = new Lauta();
-
+        bot1.reset();
+        bot2.reset();
         bot1.laitaLaivatPaikalleen(lauta1);
         bot2.laitaLaivatPaikalleen(lauta2);
         boolean laivatLaitettu1 = lauta1.laivatPaikallaan();
