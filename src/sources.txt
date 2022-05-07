@@ -1,0 +1,12 @@
+org/laivanupotus/Botti.java
+org/laivanupotus/Main.java
+org/laivanupotus/OmaBot.java
+org/laivanupotus/VastustajaBot.java
+org/laivanupotus/pelijarjestelma/Laiva.java
+org/laivanupotus/pelijarjestelma/Lauta.java
+org/laivanupotus/pelijarjestelma/PeliJarjestaja.java
+org/laivanupotus/pelijarjestelma/Ruutu.java
+org/laivanupotus/pelijarjestelma/VihollisenLauta.java
+org/laivanupotus/pelijarjestelma/enums/AmpumisTulos.java
+org/laivanupotus/pelijarjestelma/enums/PeliTulos.java
+org/laivanupotus/pelijarjestelma/enums/Suunta.java
