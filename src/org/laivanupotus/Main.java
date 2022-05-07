@@ -4,17 +4,13 @@ import org.laivanupotus.pelijarjestelma.PeliJarjestaja;
 import org.laivanupotus.pelijarjestelma.enums.PeliTulos;
 
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.stream.Collectors;
 
 public class Main {
     private static final int MAARA = 100;
 
     public static void main(String[] args) {
-
-
         Botti bot1 = new OmaBot();
-        Botti bot2 = new EsimerkkiBot();
+        Botti bot2 = new VastustajaBot();
         PeliJarjestaja jarjestaja = new PeliJarjestaja(bot1,bot2);
         ArrayList<PeliTulos> tulos = jarjestaja.pelaaXPelia(MAARA);
         int omanBotinVoitot = 0;

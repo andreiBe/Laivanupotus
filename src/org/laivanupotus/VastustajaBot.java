@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class EsimerkkiBot implements Botti {
+public class VastustajaBot implements Botti {
     private final List<Ruutu> ammutut = new ArrayList<>();
 
     @Override
